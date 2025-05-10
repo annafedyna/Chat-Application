@@ -9,6 +9,12 @@
   </head>
   <body>
     <div class="container">
+        <section>
+            <form id="name-form" action="#">
+            <input type="text" id="name-input" name="name-input" placeholder="Type your name..." aria-label="Enter your name" required >
+            <button type="submit" id="send-name-button">Send</button>
+          </form>
+        </section>
       <main class="main-chat-block" id="chat-container">
         <section class="message-display-block" id="message-display-area" aria-live="polite">
             <ul id="message-list">
@@ -22,6 +28,6 @@
         </section>
       </main>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
